@@ -1,0 +1,46 @@
+The original 3 movies I picked in the introduction week are probably
+different than the 3 movies I used in this assignment. The only reason
+is that I cant remember the movies I picked and also because my favorites
+change all the time. The 3 movies used in this assignment are: 
+
+Goal!, Cool Runnings & Wolf of Wall Street
+
+The first run I did was with the movie Goal! And the recommended system was 
+based on the movie summary.  The movie Goal! is a Drama and Sports movie, with 
+a hint of comedy. I like the soccer aspect of the movie, I watched it as a young 
+kid and as a child you want to become a professional soccer player as well.  
+
+The top 3 suggestions from the system where: Peggy Sue Got Married, Grown Ups 2 
+and Ghostbusters. From the 3 movies I know Grown Ups 2 and Ghostbusters, both movies
+ I enjoyed a lot. When I read the summary of the movie Peggy Sue Got Married I was 
+impressed. It was a movie with an actor I like a lot (Nicolas Cage) and the story 
+sounds like a movie I would enjoy. 
+
+The system actually recommended a new movie for me to watch that is now on my list!
+
+The second run I did was with the movie Cool Runnings. It is a classic movie I 
+watched with my father and it is a comedy. The cast of the movie is quite unknown 
+(at the time of making the movie at least). I tried to use the title of to 
+movie to generate suggestions. Unfortunately the system did not create a recommendation 
+in the csv file. Probably not that weird because I focused on the title of movies and 
+the keyword “ runnings”. This model did not work as well as the model that worked with 
+the summary, because there where no recommendations with a rank of 0.1
+
+The final run was with the movie Wolf Of Wall Street. A movie that got me motivated 
+to do some sales work in the past, just to try some of the tactics displayed in the 
+movie. Different than the other runs, this run focused on the main actor instead of 
+the movie summary or movie title.  The system created a list of 4 movies, The Newton 
+Boys, Baby Driver & We Are Marshall. 
+
+The movie Baby Driver is a movie I already saw, and was very good, the other two 
+movies are unknown for me. Unfortunately the summary of The Newton Boys is missing 
+in the data set, but We Are Marshall looks like a nice movie as well, I will also 
+add it to my list. 
+
+In conclusion I can say that using the summary variable worked best and using 
+the title variable worked the worst. If I would use this system and improve it I 
+would use the information of the first run and continue improving that model. I 
+have to say that most results are not what I expected because I expected to 
+see only movies I knew, but still I was able to add 2 new movies to my watch list. 
+I did expect that the summary was the best variable, because this gives the most 
+information about a movie. 
