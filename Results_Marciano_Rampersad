@@ -44,3 +44,7 @@ have to say that most results are not what I expected because I expected to
 see only movies I knew, but still I was able to add 2 new movies to my watch list. 
 I did expect that the summary was the best variable, because this gives the most 
 information about a movie. 
+
+P.S.
+
+I worked with a rank > 0.1 because with the rank > 0.99 I did not get many results, so this made it managable within the assignment. 
