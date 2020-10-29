@@ -1,0 +1,28 @@
+The movie I picked was Iron Man., my favorite movie I selected in the introduction week is Avengers End Game,
+but this movie is not in the list because it is quite new. So I replaced that movie with the movie that started 
+the Marvel universe, Iron Man. 
+
+The first run was based on the summary of the movie Iron Man. The output showed 50 movies when the rank was 0.1 
+(this was my starting rank, so there was no need to make it smaller). The movies that are highly ranked in the 
+output are all futuristic or hero movies. This makes a lot of sense, and a lot of the recommended movies are also 
+movies I enjoyed (the other Iron Mans, Thor, Tron Legacy, and more). The number 4 on this list (The Losers) is a 
+movie I did not see yet, but when I look at the description it looks like a movie I would enjoy. The system works 
+well when the summary is used to recommend other movies. 
+
+In the second run I used the title instead of the summary to recommend movies. The output did not show any movies 
+when the rank was 0.1 so I changed it to 0.0001 to see if there would be a recommendation, and there where 5 
+eventually. Because I used the words Iron and Man, the only moves that matched where the movies with those words 
+in the name. This method is less useful in my opinion, because the name of a movie does not have to be very descriptive.
+ The word Iron and Man do not say a lot about the story of the movie, and the words can be used in a lot of different 
+ways. Therefore I would say the summary method of run 1 is better in this case. 
+
+The third and final run was focused on the starring actors in the movie. I picked the main man Robert Downey Jr to focus 
+on and to see if I got useful recommendations. The output generated 40 movies (when I changed the rank 0.1 to the 0.0001) 
+with a lot of movies in the upper part with Robert Downey Jr as an actor, but there are also some movies without him in 
+the cast. They are lower ranked, but they also look like interesting movies to me (for example Man of Honor). 
+
+In the end I think that summary is the best way to create recommendations, starring comes second and title is 
+the worst way out of the 3 different methods. It would be interesting to improve this system for example by combining 
+the summary and the starring runs to generate a more specific recommendation. There where a lot more recommendations than 
+I expected in the beginning, especially for the third run. The second run was a bit disappointing but I exacted that 
+already, I could make the keyword “man” and probably get a lot of output, but then it is not really relevant in my opinion.  
