@@ -1,4 +1,4 @@
-/* Run 2: Recommendations based on title text - movie: Cool runnings! (Keyword: runnings)*/
+/* Run 2: Recommendations based on title text - movie: Iron Man (Keyword: iron man)*/
 
 
 /* Open map RSL & open test database */
