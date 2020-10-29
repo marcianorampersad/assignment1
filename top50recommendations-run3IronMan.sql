@@ -1,4 +1,4 @@
-/* Run 3: Recommendations based on Starring text - movie: Wolf of wall street (Keyword: DiCaprio)*/
+/* Run 3: Recommendations based on Starring text - movie: Iron Man (Keyword: Downey)*/
 
 
 /* Open map RSL & open test database */
