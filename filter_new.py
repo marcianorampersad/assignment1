@@ -45,4 +45,19 @@ for idx, Author in subset.iterrows():
     possible_recommendations.loc[:,'rel_inc'] = possible_recommendations.Metascore_w/ranking
     possible_recommendations.loc[:,'abs_inc'] = possible_recommendations.Metascore_w - ranking
     
+    #
+    recommendations = recommendations.append(possible_recomendations)
+    
+    #
+    recommendations = recommendations.sort_values(['rel_inc','abs_inc'], ascending=False
+    #
+    recommendations = recommendations.drop_duplicates(subset='movieName', keep="first")                                             
+    #                                           
+    recommendations.head(50).to_csv("recommendationsBasedOnMetascorePython.csv", sep=";", index=False)
+    Print(recommendations.head(50))
+    Print(recommendations.shape)
+                                                  
+                                                 
+    
+    
     
