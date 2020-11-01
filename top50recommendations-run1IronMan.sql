@@ -7,7 +7,6 @@ psql test
 
 /* Make the table and copy the data from the csv file */
 CREATE TABLE films1 (url text, title text, ReleaseDate text, Distributor text, Starring text, Summary text, Director text, Genre text, Rating text, Runtime text, Userscore text, Metascore text, scoreCounts text);
-CREATE TABLE
 \copy films1  FROM '/home/pi/RSL//moviesFromMetacritic.csv' delimiter ';' csv header ;
 
 
