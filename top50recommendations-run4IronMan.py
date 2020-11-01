@@ -38,6 +38,6 @@ recommendations = recommendations.sort_values(['relative_increase','absolute_inc
 recommendations = recommendations.drop_duplicates(subset='movieName', keep="first")                                             
     
 #make the csv and print the first 50 recommendations                                           
-recommendations.head(50).to_csv("top50recommendations-run4IronMan..csv", sep=";", index=False)
+recommendations.head(50).to_csv("top50recommendations-run4IronMan.csv", sep=";", index=False)
 print(recommendations.head(50))
 print(recommendations.shape)
