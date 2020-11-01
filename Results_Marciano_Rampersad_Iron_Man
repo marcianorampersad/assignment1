@@ -1,3 +1,5 @@
+SQL part
+
 The movie I picked was Iron Man., my favorite movie I selected in the introduction week is Avengers End Game,
 but this movie is not in the list because it is quite new. So I replaced that movie with the movie that started 
 the Marvel universe, Iron Man. 
@@ -26,3 +28,27 @@ the worst way out of the 3 different methods. It would be interesting to improve
 the summary and the starring runs to generate a more specific recommendation. There where a lot more recommendations than 
 I expected in the beginning, especially for the third run. The second run was a bit disappointing but I exacted that 
 already, I could make the keyword “man” and probably get a lot of output, but then it is not really relevant in my opinion.  
+
+
+
+Python part
+
+For this part I used the movie Iron Man again. To create the recommendation system with Python we had to use the data 
+from a different file. The recommendations are now based on the comments from people who reviewed Iron Man with a grade, 
+but also other movies with a higher grade. The higher graded movies are the output. 
+
+The output generated 50 interesting movies, and compared to the SQL system a lot more diverse. There are some flaws in 
+this recommendation system that I did not correct properly, for example the infinite absolute increase, but besides that 
+I am very happy with the results. Because of this, when someone ranked Iron Man with a 0 and an other movie with whatever 
+score from 1 to 10, the increase is infinite, to make the Recommendation system better I should remove the Authors who 
+scored Iron Man a 0. 
+
+Some movies in the file that I already watched and I enjoyed them a lot, so this means the system at least works for me. 
+
+In the end I think this is a good base for a recommendation system but it would be valuable to also add the summary in the
+system, this way you get more similar themed movies, what in my opinion is very important when you recommend a movie based 
+on an other movie. Something that stood out to me is that there are not a lot of marvel movies in the top 50, I expected more 
+of them! 
+
+I am very happy with the results of all the recommendation systems and I have learned a lot of new stuff, looking forward to 
+the next steps!
