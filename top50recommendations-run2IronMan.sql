@@ -2,6 +2,7 @@
 
 
 /* Open map RSL & open test database */
+cd RSL
 psql test
 
 /* Make the table and copy the data from the csv file */
